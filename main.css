@@ -101,11 +101,6 @@ html , body{
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
-    
-
-    
-    
-
 }
 #leftFoot{
     display: flex;
@@ -124,8 +119,6 @@ html , body{
    color: black;
    text-decoration: none; 
     
-   
-  
 }   
 #rightFoot a{
     color: black;
