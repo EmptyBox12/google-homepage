@@ -1,14 +1,26 @@
+/*% */
 body{
     margin:0;
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
     
+}
+html , body{
+    height: 100%;
+    width: 100%;
 }
 
 #navbar{
     display: flex;
     justify-content: flex-end;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
     color: black;
+    align-items: center;
+    
 }
 
 
@@ -20,29 +32,44 @@ body{
     
 }
 .profile-image{
-    width: 20px;
-    height: 20px;
+    margin-top: 0;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background:red;
+   
 }
 #middle{
-    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.7;
+    
 }
 #image{
     text-align: center;
 }
 #search-container{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 15px;
+   
+
     
 }
 #searchbox{
+    display: flex;
+    padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     width: 400px;
     border-radius: 10px;
     border: 1px rgb(202, 201, 201) solid;
     outline: none;
+    
     
 }
 #searchbox:hover{
@@ -64,3 +91,46 @@ body{
 .button:hover{
     border: 1px black solid;
 }
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 35px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+    
+
+}
+#leftFoot{
+    display: flex;
+    
+}
+
+.left-item{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+#middleFoot a{
+   color: black;
+   text-decoration: none; 
+    
+   
+  
+}   
+#rightFoot a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+
+} 
+
